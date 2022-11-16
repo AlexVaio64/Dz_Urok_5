@@ -3,7 +3,7 @@
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-Console.Write("Введи количество элементов массива: ");
+Console.Write("Введите количество элементов массива: ");
 int numberElements = Convert.ToInt32(Console.ReadLine()); 
 
 int RandomNumbers(int numberElements, int min, int max)
@@ -12,7 +12,8 @@ int RandomNumbers(int numberElements, int min, int max)
   int sumElements = 0;
   Console.Write("Числа, содержащиеся в массиве: ");
 
-    for (int i = 0; i <randomNumbers.Length; i++ ){
+    for (int i = 0; i <randomNumbers.Length; i++ )
+    {
       randomNumbers[i] = new Random().Next(min, max);
 
       Console.Write(randomNumbers[i] + " ");

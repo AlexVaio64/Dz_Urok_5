@@ -7,7 +7,7 @@ Console.WriteLine("Введите количество элементов мас
 int size = Convert.ToInt32(Console.ReadLine());
 int[] numbers = new int[size];
 FillArrayRandomNumbers(numbers);
-Console.WriteLine("массив: ");
+Console.WriteLine("Массив: ");
 PrintArray(numbers);
 int count = 0;
 
